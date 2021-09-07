@@ -1,1 +1,1 @@
-web:gunicorn watasite.wsgi --log-file -
+web:gunicorn watasite.wsgi
