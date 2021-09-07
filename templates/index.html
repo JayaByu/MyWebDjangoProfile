@@ -1,0 +1,232 @@
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="{% static '/style/style.css' %}">
+    <title>Bayu | Portofolio</title>
+</head>
+<body>
+    <div class="gretting">
+        <h1>Grettings....<br></h1>
+        <div class="nama">
+            <p>i'm Bayu.... <span class="wave"> 👋</span></p>
+        </div>
+    </div>
+    <!-- header -->
+    <div class="aboutme">
+        <div class="isi">
+            <p>I'm junior IT Dev <span id="dev">im focused to</span> learn
+               <span id="dev">Developing </span> all <span id="dev">security tools</span> and
+               Web <span id="dev">pentesting Im </span>also have
+               Little experience <span id="dev">in webdev</span>
+               <span id="dev">And arduino</span> programing..</p> 
+        </div>
+    </div>
+    <!-- About-me-more -->
+    <div class="moreme">
+        <div class="con_me">
+            <div class="more_about"
+            data-aos="fade-right" data-aos-offset="90" data-aos-easing="ease-in-sine">
+                <h4>More<br>About me...</h4>
+            </div>
+            <div class="deskripsi_aboutme" data-aos="fade-left" data-aos-offset="100" data-aos-easing="ease-in-sine">
+                <p>I'm study at <a href="https://binus.ac.id/malang/" class="sunib"> Binus University</a> majoring in computer science, 
+                    I am also a active member of a community called <a href="https://tegalsec.org/" class="laget"> Tegal 1337</a> ,
+                    I've created a variety of useful tools for performing security test and tools for helping us be more easy.
+                </p>
+            </div>
+        </div>
+    </div>
+    <!-- myskill -->
+    <div class="skill">
+        <img id="ski" src="{% static '/images/ski.png' %}">
+        <h1>LLS</h1>
+    </div>
+    <!-- languageess -->
+    <div class="language" data-aos="fade-up"
+    data-aos-anchor-placement="top-bottom"
+    data-aos-offset="100">
+        <div class="langcon">
+            <div class="prog_language">
+                <h1>Languages</h1>
+                <ul>
+                    <li>Shell Scripting</li>
+                    <li>Python</li>
+                    <li>SASS</li>
+                    <li>HTML</li>
+                    <li>C</li> 
+                </ul>
+            </div>
+            <div class="tools">
+                <h1>Tools</h1>
+                <ul>
+                    <li>Brupsuite</li>
+                    <li>MongoDB</li>
+                    <li>Xampp</li>
+                    <li>Docker</li>
+                    <li>Github</li>
+                    <li>Ngrok</li>
+                </ul>
+            </div>
+            <div class="framework">
+                <h1>Framework</h1>
+                <ul>
+                    <li>OSINT</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- experience -->
+    <div class="experience">
+        <div class="exp-judul">Experience</div>
+        <div class="exp-tokotronik"  data-aos="fade-up"
+        data-aos-anchor-placement="top-bottom"
+        data-aos-offset="100">
+            <div class="tokotronik">
+                <a href="https://tokotronik.com/" class="linkinkubatek">Inkubator Teknologi Yogyakarta</a>
+                <p class="posisi">Robotic Engineer</p>
+            </div>
+            07 January - 06 April 2019
+        </div>
+    </div>
+    <!-- projects -->
+    <div class="jet">
+        <!-- <div class="jetcon"> -->
+            <h1 class="pro">Pro</h1>
+            <img id="jet" src="{% static '/images/jet.png' %}">
+            <h1 class="S">'s</h1>
+        <!-- </div> -->
+    </div>
+
+    <div class="container">
+        <div class="slider">
+            
+            <div class="box1 box"  data-aos="fade-right"
+            data-aos-offset="100"
+            data-aos-easing="ease-in-sine">
+                <div class="details">
+                  <h1>IP Track Using Geolocation</h1>
+                  <p>
+                    I design it like google chapta to trick the
+                    target and use the geolocation that is already in the new 
+                    browser this API can provide information about our location 
+                    from the browser and combine it with google maps the way my 
+                    project works is we need to call the getCurrentPosition function, 
+                   and other necessary information is in the coordinates property.
+                  </p>
+                  <button>
+                      <a href="https://github.com/JayaByu/Geolocation">
+                      Wanna See..
+                      </a>
+                  </button>
+                </div>
+        
+                <div class="illustration">
+                  <div class="inner">
+                      <img src="{% static '/images/IP-Track.png' %}">
+                  </div>
+                </div>
+              </div>
+        
+            </div>
+          </div>
+        </div>
+    </div>
+    
+    <div class="container">
+      <div class="slider">
+          
+            <div class="box2 box" data-aos="fade-left"
+            data-aos-offset="100"
+            data-aos-easing="ease-in-sine">
+              <div class="details">
+                <h1>Auto Login Bot</h1>
+                <p>
+                  This bot is under development periodically, 
+                  I made this bot using python with a module called 
+                  selenium which later when the user runs the application it 
+                  will input the password and account from my school.
+                </p>
+                <button>
+                  <a href="https://github.com/JayaByu/Sunib_Bot">
+                  Wanna See..
+                  </a>
+              </button>
+              </div>
+      
+              <div class="illustration">
+                <div class="inner">
+                    <img src="{% static '/images/forsunib.png' %}" width="50%">
+                </div>
+              </div>
+          </div>
+      
+          </div>
+        </div>
+      </div>
+  </div>
+
+  <div class="space">
+  </div>
+
+  <div class="contact-con">
+    <h1 class="judul-contact">Contact</h1>
+    <div class="isi-contact">
+      <form role="form" class="form-con" method="POST">
+        {% csrf_token %}
+        <div class="nama">
+          <input type="text" class="in" name="nama" id="name" placeholder="Name..." required >
+        </div>
+        <div class="email">
+          <input type="email" class="in" name="email" id="email" placeholder="Email..." required >
+        </div>
+        
+        <textarea rows="10" class="msg" name="message" placeholder="Write Your Message bruh..." required></textarea>
+      
+        <button class="send" name="sendbutton">Send</button>
+
+      </form>
+      <div class="medsos">
+        <div class="ig">
+            <a href="https://www.instagram.com/jaybyu._.8/">
+              <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAABmJLR0QA/wD/AP+gvaeTAAAEa0lEQVR4nO2bzW9VRRjGf9d6IwkNCN0QIfSCJpQESUG7gFISQywEEr4hxn+AiAuBYtzqwoWBwJK9YrRAFMKGFV+VFbBgQfkyhtCrLSYqDSa2SQUWMyfc+86c2zNz5txzSc+TzGJOzjzvM+89M/POzHuhQIECMxmlFO3eB3YAfcA7wDzgjUC6JCaBf4AHwBBwFrgBPM/IXizKwH7gkTaeZ3mktZQz7XENNgL3M+yQb7kH9GfYbwA+A6Zy7mijMgV8kVXnT8QYHQe+A3YBXcCcrARo7uXAbm1zPEbTidCGP7cYmQCOAPNDG3NAB3BUa5H6DocyshHzsx8F1oQyEABrUZrkcEg9J5QxJ7xRoJKWOANUgDHMiTHV6vAp5mffKr/8FqAKjACb9bO1qFihVvN+XwMlzHX+iL/e4BihPhaIcIx6zVWgzcdAjyAaJ98JTyLOAR2Yq8OG6cheszzbLurngL99lGaEfbwcAvtqnv8FnBfvbvIxMES9F3f7kAisAr4CLgF3gH91uQNcBL7U76TFXuq1X/EhkctKl6eYErAT1cmkEd0waoPli+WC7w8fEhlczPXgqADXSN5xWX4BOj3szhU8/3lwGGJc0Qf8aeFxLY+BdTnoT0XQhz08nQB+AD4ClgGzdVmmn/2IuY5H7VydkJsDKth/+UGSRZBLgFOW9o9xGw65OKCEOeanUNtoVxzA3IMMObTPxQG7LO18Oh/hkIUv6erQdAeUMJe6QR/DAqcF53DCdk13wGrx/iSw1MewQAVzQu1O0M5Jvy0UdsU2Uf8J+C0A70NUGN7IVmqEcECfqEvRaSC51gfkBsI4YJGo3wjAGeGmqC8MyB0L1zngqXi/PaCWdsH9NEGbps8BXjNtQkh9z7I24INRUX8rAGccl9furhFCOOB3UX8vAGccl7SVGiEccFXUQy5VW6exlQlcJ8FVmIHQ2wF0LMEMhFYmaJfLXmBYtDnlY1jgjOC8nbBdLg7YYWl3wMe4xoCFL+nQysUBoI6x5Hb4oIf9Q5jbYZexn5sDOlGHF7L9aZJtjpZifvbPUddeix105OYAUMdXtiOxSdQW+WPUKXO7Ll362SDxR2K9TdQfhGAd9i/BtYzh3vkQ+o1f0CfxoRPzgsWlXMXts48Q5Fg81MUIqNVBLpGNym3MqzkXyIuRaSPH1y3PfgUW1NRXAHc9Bf2sSzdqGVuPiu+jLXQVFd9fQe39b3naifCuqD/wIfmaei9+m1JUM/E99dq/8SFp9evxOHhdj9tgS5A4GkZjpjhOveYRPBMkQKWXyPW4VVJkbOjFjCM+SUNYRiUa1RK+SklSdwmQQtuPGZOPoRKSWgW9mJ2fAj4MZeCwII/C2mOoSScvdGgNtvB5ILSxRqmyJ4E9qADEJ5EiKaJU2T3aZtNSZSPM6GTpCP2YE2MrlHsEHPPToYxaXqoZdihpqWotqWZ737/MtAEfoBKqe1CpLm8Cs9KIaYAJ4Anq174OXAAuA/9nZK9AgQIFChQoMAPwAhzyQeEvAPAiAAAAAElFTkSuQmCC"/>            
+            </a>
+          </div>
+
+          <div class="ghub">
+            <a href="https://github.com/JayaByu">
+              <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAABmJLR0QA/wD/AP+gvaeTAAAElElEQVR4nO3aW6hUVRzH8c+x1GN5ktLKLpL1kFpZJ8wwrbCHsotCL0E9BIXQU1BvQfSUPXRBsRB6CKKi8CFCuoCUpZXglaJ8iAKDSkvzeiI7x4zT9LDm6DRn71n7NnOM5gsLhpm1f7//f83ea68bXbp0+T/T02b92ViM63AlZuJcTK7/fgxH8CO+w9f4tP75P0s/VmEvagXLHqwUGu4/QQ+WYaviSaeVLViq/XdrYW7ETtUn3lx24IYO5ZSJSViDYe1PfqQM4yX0diC/lszGLp1LvLl8JXSqY8ICHIoE2IlyFLe0OddR3IPBkoFXWQZxd1szbuBWo5N/Dn2Yg+VYr9o+YRjv42HhsesTXrHNjXBzG/OmnuBAk/EJTEuoO1cYzJRNfj1mJehPx19NdY+k1I2S5d16Frbjmqbvt2BRyjVn4Bk8UfcYwDfYLYz+fq/X6xNGhVcIjTxV+NefEu6uWor+duH128guoX8aypBTLl6W/A+9nuHaZZgn+yBmrjB0jvFmSkxrMvpkZoH0Z/q1qs1y8GpKTMOYX5VJD75MMarhs6qMCvBhi7h2qGjYfG8LkxoOY2IVRjkZJz7RWlqF0Y6ISQ0PVGGUk3kZ4traCZNvMaWsUQF68HaG+PrLmLwYER9S8L1bEeeIPwarior34JeI+MrisVfGo1rHuKeo8JyI8CDOLxF4VfTigNaxRu/ScQnf3Ra5ZiMO5om0TRzHR5E6sVwSGyC2Drc+JtpBPo78fm1MIKkBYgsNO2OiHWRX5PdCj8DlkWt+jYl2kAOR32O5JHJY645lzNfjGujVOtZDMYGkO2BywneNTMgXY1uJDcX7YgJJDRCbSFwQE+0g08sKJDXAYOSaMVuNTSAWyx8xgaQGOBy5ZklMtIPEYonlkshGrTuWHzC+iHDFTMBPWscaGyck3gGxndnL8FCeSNvEcsyI1Cm0y7xcfKq519jOBy4Un7DVhOX03MzOIFzDJmPzKIwXluOyxFi4w/4+o8E6nF3UpACT8W7G2HaXMXoho0lNWDjtxOLIVcKmaNa4ni9jdnUOo5qwS7QS55UxTWEqVtc98sQ0p6zxpibBY3XRWXhc8g7xEN7C7coNmXuFd/xaYd6fJ/EaPinhfZIlCcJrnZoMTccXLYIYFPYI8yxR34nPhYbMm3RjuSN/uskkDYo2CHt/hNfRvkgwd+Xwmx/R6ti/P0K/0TuxNTzZUGexMOZOC+jiHH7TWuhk7Yuiq0B5WZFg9Jtw3m+Efulb4pNyeE1M0chani6QX5QJ2JZgtiKh7kzch0dwv/hQNYmiyW/TxrWKS7G/yXBI2EGqmiLJ78MlbYjlX1xv9CmRg6o/npI3+QElt8HysEg4ndUYwDBeUd3dkCf5o1hYkW9m+vFzSkD7hV3lDcKS9UAB/azJ79WGHj8rF2FzJMCRkpcsmptVsB5YljOFQ1CxoWpeWmmdwLNOjxWpk8zCB5IDPl5A788UrfecXguyo1gozNUbD1W9U0BnXcP1w3XNmyqKcRTtOIM/Aw8K84XVTp0JzMoUPIa/8Yaw8NmlS5cuXbp06dKlav4BBhl3q26Ot54AAAAASUVORK5CYII="/>          
+            </a>
+          </div>
+            
+          <div class="yutup">
+            <a href="https://www.youtube.com/channel/UCGHHHV_0Ln6dsoUHHOp1mQg">
+              <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAABmJLR0QA/wD/AP+gvaeTAAAD+0lEQVR4nO2aS08UQRCAPwUEV3FZ8IEiPiAx0ZsJ0YMxkIhGPXjwD+k/8HE1Pv6A8SpqokRJNB5MPJosiggaUZenioJ66J7MTE2zO7M9u8u6/SWdmYau3qqa7pru6QKHw+FwOByNyoYU+sgCPcAeXXqALiAHdOprDtgKNAPtWq4VyOj778Cyvp8HVoFFoKDLN339CkwB07pMAXM2yidxQA4YBgaAPqBfX7M2CqTAHJAHxnV5CTwCZtP6gRxwHfWU/tZJWQKuAR22xh8B3q4Dg8ot49qGNSk2BfYBz4HdxTrQfAbeB8pH/HnrzWFvbs9rmWXUqAIVC1r1/TagSV9zouwCuoHewNWLI2sxDRwHPpj+WcwBD4DT4m+TwD3gNb6xE8DPEkpUkl348WgAuIhyTJAR4GySToeIDqebwGZLZatBBrhDVP+TSTq5LYQfo4ZlvdAMPCVsw40kHeSF8PmUFawGFwjb8Cau4CZgJSC4ih+g6okM8Affjt9ASxzBQ4Q9N1EhBavBFGFb+mSDjQahflEfT1+vqiF1l7YZHSC9ZOuAZ6gldC3Ii3osBxwUdVsHnAAeUhtHSN1jTYF9ov4uJWU8RzwBBlPqsxTSAftlA5MDukT9c2rqKAZRTqjGiJgR9U7ZwOQA2ehrauqEqcbU+CbqEQeYeEf41SFjQlLi7twqMTX6xW+8jSM0I4S2WyqRdAubpiN2ir5jTec5IbTNUoly9/JpTI0O0WchjtAPIdRmqYTtRw0bR2REX0txhFaFkClQJiGtrzvlOKJJ9LEiG9ga91/S8FOg4YOgfA3usFSi7l6DciEU2UAkpBaGe5RcCJmCYFnLRwvGUF+fh4DRlPuW+5rIsr7ZIFQtB4wBl1HHWJVC6i5tMzpAesk2BkhGgUuk/7RNyGV8JAiapsCkqNtuhjwqOdTXQsav97KBaQSU/IqSkGo+cckBUY8EQZMDZCPbETBkKW+DfHjyG6FxCshGtiOglpT1gdd0MGK7HK4FbYQ3diso20KYRsAvwochG4FTFVCw0gwTtm8CZVss5OHoKPV1ONqE0jlow80kHQwSXarepnQywnpgM3CLqP7G4/FiCRIjwBnxtw/AXeAVar0wiXq3LlMbWlHnGL26HMWcIHEfOGfqoJgD9gIvUKlvpfhE2CGfCKfIFPCztmZRT+Q3KhUOVApdi9bHS2yS6TE5VLpOb6B0x9CtaIpMKQ4TzRWop5LXNliRBa6gnlatDYpbFoGrxMhhTJIomUW9Wo6hFhhesc7Fs6SAnyQZTJSMlUGaRqpsOypeeGmywVTZYGknPMc3AVv0/RL+O9qLEQuEY0gB+IKfIjuNmtcLKdjgcDgcDofD4XA4Gox/L5BbgHoCWIgAAAAASUVORK5CYII="/>
+            </a>
+          </div>
+      </div>
+    </div>
+
+
+  </div>
+
+
+  <footer class="copyright">
+    <div class="design">
+      <span>Designed &amp; Developed by</span>
+    </div>
+    <div class="nama">
+      <span>Jayawardhana Bayu Krisnatama EP</span>
+      <span> - 2021</span>
+    </div>
+  </footer>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+    <script src="{% static '/brain/main.js' %}"></script>
+</body>
+</html>

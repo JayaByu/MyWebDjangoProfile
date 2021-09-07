@@ -1,0 +1,913 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Saira+Condensed:wght@300;400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Saira+Condensed:wght@300;400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Press+Start+2P&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500;800&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #eee;
+}
+
+.gretting {
+  padding: 4%;
+  background-color: #eee;
+  color: #3E2C41;
+}
+
+.gretting h1 {
+  font-family: "Press Start 2P", cursive;
+  font-size: 2.2vw;
+}
+
+.gretting .nama {
+  letter-spacing: 3px;
+  width: 33%;
+  font-family: "Saira Condensed", sans-serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.gretting .nama p {
+  font-weight: 900;
+  font-size: 3vw;
+}
+
+.gretting .wave {
+  -webkit-animation-name: wave-animation;
+          animation-name: wave-animation;
+  -webkit-animation-duration: 1.7s;
+          animation-duration: 1.7s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-transform-origin: 70% 70%;
+          transform-origin: 70% 70%;
+  display: inline-block;
+}
+
+@-webkit-keyframes wave-animation {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  10% {
+    -webkit-transform: rotate(14deg);
+            transform: rotate(14deg);
+  }
+  30% {
+    -webkit-transform: rotate(14deg);
+            transform: rotate(14deg);
+  }
+  40% {
+    -webkit-transform: rotate(-4deg);
+            transform: rotate(-4deg);
+  }
+  50% {
+    -webkit-transform: rotate(10deg);
+            transform: rotate(10deg);
+  }
+  60% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+}
+
+@keyframes wave-animation {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  10% {
+    -webkit-transform: rotate(14deg);
+            transform: rotate(14deg);
+  }
+  30% {
+    -webkit-transform: rotate(14deg);
+            transform: rotate(14deg);
+  }
+  40% {
+    -webkit-transform: rotate(-4deg);
+            transform: rotate(-4deg);
+  }
+  50% {
+    -webkit-transform: rotate(10deg);
+            transform: rotate(10deg);
+  }
+  60% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+}
+
+.aboutme {
+  width: 100%;
+  height: 150vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #eee;
+  color: #3E2C41;
+}
+
+.aboutme .isi {
+  font-family: "Saira Condensed", sans-serif;
+  font-size: 6vw;
+  width: 80%;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-animation: animatebottom 4.5s;
+          animation: animatebottom 4.5s;
+}
+
+.aboutme .isi p #dev {
+  color: #FFC478;
+}
+
+@-webkit-keyframes animatebottom {
+  from {
+    bottom: -500px;
+    opacity: 0;
+  }
+  to {
+    bottom: 0;
+    opacity: 1;
+  }
+}
+
+@keyframes animatebottom {
+  from {
+    bottom: -500px;
+    opacity: 0;
+  }
+  to {
+    bottom: 0;
+    opacity: 1;
+  }
+}
+
+.moreme {
+  width: 100%;
+  height: 130vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #eee;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-family: "Saira Condensed", sans-serif;
+  color: #3E2C41;
+}
+
+.moreme .con_me {
+  padding: 10%;
+  width: 70%;
+  height: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.moreme .con_me .more_about {
+  margin: auto;
+  width: 30%;
+  font-size: 2.5vw;
+  letter-spacing: 2px;
+}
+
+.moreme .con_me .deskripsi_aboutme {
+  margin: auto;
+  width: 60%;
+  font-size: 2.4vw;
+}
+
+.moreme .con_me a {
+  text-decoration: none;
+  color: inherit;
+  -webkit-transition: background 0.3s cubic-bezier(0.33, 0.66, 0.66, 0.1);
+  transition: background 0.3s cubic-bezier(0.33, 0.66, 0.66, 0.1);
+}
+
+.moreme .con_me .sunib {
+  border-bottom: 4px solid #7DEDFF;
+  -webkit-box-shadow: #7DEDFF;
+          box-shadow: #7DEDFF;
+}
+
+.moreme .con_me .sunib:hover {
+  background-color: #7DEDFF;
+}
+
+.moreme .con_me .laget {
+  border-bottom: 4px solid #B0EACD;
+  -webkit-box-shadow: #B0EACD;
+          box-shadow: #B0EACD;
+}
+
+.moreme .con_me .laget:hover {
+  background-color: #B0EACD;
+}
+
+.skill {
+  width: 100%;
+  height: 25vh;
+  padding: 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #eee;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.skill::before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 1px;
+}
+
+.skill img {
+  position: absolute;
+  left: 30%;
+  -webkit-transform: translateY(720%);
+          transform: translateY(720%);
+  -o-object-fit: cover;
+     object-fit: cover;
+  pointer-events: none;
+}
+
+.skill h1 {
+  position: absolute;
+  font-family: "Bebas Neue", cursive;
+  font-size: 7vw;
+  font-weight: 900;
+  color: #fff;
+  text-shadow: -10px 5px 15px rgba(0, 0, 0, 0.19);
+}
+
+@media screen and (max-width: 1440px) {
+  .skill img {
+    width: 20vw;
+    position: relative;
+    left: -10%;
+    -webkit-transform: translateY(100%);
+            transform: translateY(100%);
+  }
+}
+
+.language {
+  font-family: "Saira Condensed", sans-serif;
+  background-color: #eee;
+  width: 100%;
+  height: 100vh;
+  color: #3E2C41;
+}
+
+.language .langcon {
+  padding-top: 5%;
+  margin: auto;
+  width: 70%;
+  height: 60vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.language .langcon h1 {
+  font-size: 2.5vw;
+  font-weight: 900;
+}
+
+.language .langcon ul {
+  font-size: 2vw;
+  list-style: none;
+}
+
+.experience {
+  background-color: #eee;
+  width: 100%;
+  height: 100vh;
+}
+
+.experience .exp-judul {
+  height: 35vh;
+  font-family: "Bebas Neue", cursive;
+  text-align: center;
+  font-weight: 900;
+  font-size: 7vw;
+  color: #fff;
+  text-shadow: -20px 5px 15px rgba(0, 0, 0, 0.19);
+}
+
+.experience .exp-tokotronik {
+  margin: auto;
+  width: 70vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-size: 1.5vw;
+  font-family: "Saira Condensed", sans-serif;
+  color: #3E2C41;
+}
+
+.experience .exp-tokotronik .linkinkubatek {
+  display: block;
+  position: relative;
+  font-weight: 600;
+  letter-spacing: 0;
+  text-decoration: none;
+  color: #F9B208;
+}
+
+.experience .exp-tokotronik .linkinkubatek:hover {
+  color: #f98404;
+}
+
+.experience .exp-tokotronik .linkinkubatek::before {
+  content: '';
+  display: block;
+  position: absolute;
+  background-color: #F9B208;
+  width: 100%;
+  height: 7%;
+  bottom: 8%;
+}
+
+.experience .exp-tokotronik .linkinkubatek:hover::before {
+  -webkit-transform-origin: right top;
+          transform-origin: right top;
+  -webkit-transform: scale(0, 1);
+          transform: scale(0, 1);
+}
+
+.experience .exp-tokotronik .linkinkubatek::after {
+  content: '';
+  display: block;
+  position: absolute;
+  background-color: #F98404;
+  width: 100%;
+  height: 7%;
+  bottom: 8%;
+  pointer-events: none;
+  -webkit-transform: scale(0, 1);
+          transform: scale(0, 1);
+  -webkit-transform-origin: right top;
+          transform-origin: right top;
+  -webkit-transition: -webkit-transform 0.5s cubic-bezier(0.37, 0.16, 0.12, 1);
+  transition: -webkit-transform 0.5s cubic-bezier(0.37, 0.16, 0.12, 1);
+  transition: transform 0.5s cubic-bezier(0.37, 0.16, 0.12, 1);
+  transition: transform 0.5s cubic-bezier(0.37, 0.16, 0.12, 1), -webkit-transform 0.5s cubic-bezier(0.37, 0.16, 0.12, 1);
+}
+
+.experience .exp-tokotronik .linkinkubatek:hover::after {
+  -webkit-transform-origin: left top;
+          transform-origin: left top;
+  -webkit-transform: scale(1, 1);
+          transform: scale(1, 1);
+}
+
+.jet {
+  width: 100%;
+  height: 30vh;
+  background-color: #eee;
+  padding: 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.jet::before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 1px;
+}
+
+.jet img {
+  position: relative;
+  -webkit-transform: translateY(230%);
+          transform: translateY(230%);
+}
+
+.jet h1 {
+  font-family: "Bebas Neue", cursive;
+  font-weight: 900;
+  font-size: 7vw;
+  color: #fff;
+  text-shadow: -10px 5px 15px rgba(0, 0, 0, 0.19);
+}
+
+.jet .pro {
+  position: relative;
+  left: 2%;
+}
+
+.jet .S {
+  position: relative;
+  right: 5%;
+}
+
+@media screen and (max-width: 1440px) {
+  .jet img {
+    width: 20vw;
+    position: relative;
+    -webkit-transform: translateY(270%);
+            transform: translateY(270%);
+  }
+}
+
+.container {
+  position: relative;
+  overflow: hidden;
+}
+
+@media only screen and (max-width: 1000px) {
+  .container {
+    border-radius: 0;
+  }
+}
+
+.slider {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 35rem;
+  -webkit-transition: all 0.25s ease-in;
+  transition: all 0.25s ease-in;
+  -webkit-transform: translateX(0);
+          transform: translateX(0);
+  color: #3E2C41;
+}
+
+.slider .box {
+  height: 100%;
+  width: 100%;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  overflow: hidden;
+  position: relative;
+}
+
+.slider .box .details {
+  padding: 0rem;
+  padding-left: 10rem;
+  z-index: 100;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+  grid-column: 1 / span 1;
+  grid-row: 1 / -1;
+}
+
+.slider .box .details h1 {
+  font-size: 3.5rem;
+  font-family: "Bebas Neue", cursive;
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+}
+
+.slider .box .details p {
+  display: inline-block;
+  font-family: "Saira Condensed", sans-serif;
+  font-size: 1.3rem;
+  color: #3E2C41;
+  margin-bottom: 2rem;
+  margin-right: 5rem;
+}
+
+.slider .box .details button {
+  padding: 1rem 3rem;
+  background-color: #AAAA;
+  border-radius: 2rem;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.slider .box .details button a {
+  color: #3E2C41;
+  text-decoration: none;
+}
+
+.slider .box .details button:hover {
+  opacity: 0.8;
+}
+
+.slider .box .details button:focus {
+  outline: none;
+  border: none;
+}
+
+.slider .box1 {
+  background-color: #eee;
+}
+
+.slider .box2 {
+  background-color: #eee;
+}
+
+.slider .illustration {
+  grid-column: 2 / -1;
+  grid-row: 1 / -1;
+  -ms-grid-column-align: center;
+      justify-self: center;
+}
+
+.slider .illustration img {
+  height: 25rem;
+  width: 40rem;
+  border-radius: 1rem;
+}
+
+@media screen and (max-width: 1440px) {
+  .slider .illustration img {
+    height: 20rem;
+    width: 30rem;
+  }
+}
+
+.space {
+  width: 100%;
+  height: 15vh;
+  background-color: #eee;
+}
+
+.contact-con {
+  width: 100%;
+  height: 90vh;
+  background-color: #eee;
+}
+
+.contact-con .judul-contact {
+  text-align: center;
+  font-weight: 900;
+  font-size: 7vw;
+  font-family: "Bebas Neue", cursive;
+  text-shadow: -10px 5px 15px rgba(0, 0, 0, 0.19);
+  color: #fff;
+}
+
+.contact-con .isi-contact {
+  margin: auto;
+  width: 70%;
+  background-color: #eee;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  max-width: 1050px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 5%;
+}
+
+.form-con {
+  width: 80%;
+  color: #3E2C41;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  letter-spacing: 1px;
+  font-family: "Saira Condensed", sans-serif;
+}
+
+.form-con input {
+  resize: none;
+  border: none;
+  outline: none;
+  border-bottom: solid #E7E6E1;
+  background-color: #eee;
+  letter-spacing: 1px;
+}
+
+.form-con .in {
+  font-size: 1vw;
+  font-family: "Saira Condensed", sans-serif;
+  width: 100%;
+  height: 4vh;
+  margin-top: 4%;
+  color: #3E2C41;
+}
+
+.form-con textarea {
+  margin-top: 4%;
+  width: 100%;
+  height: 30vh;
+  border-bottom: #E7E6E1;
+  font-size: 1vw;
+  font-family: "Saira Condensed", sans-serif;
+  color: #3E2C41;
+  letter-spacing: 1px;
+}
+
+.form-con .msg {
+  resize: none;
+  border: none;
+  outline: none;
+  background-color: #eee;
+  border-bottom: solid #E7E6E1;
+}
+
+.form-con button {
+  border: none;
+  outline: none;
+}
+
+.form-con .send {
+  width: 40%;
+  height: 3vh;
+  font-size: 1vw;
+  font-family: "Saira Condensed", sans-serif;
+  margin-top: 5%;
+  cursor: pointer;
+  color: #3E2C41;
+}
+
+.form-con .send:hover {
+  background-color: #E7E6E1;
+  -webkit-transition: all .6s ease-in-out;
+  transition: all .6s ease-in-out;
+}
+
+.medsos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.medsos a {
+  border-radius: 50%;
+  background-color: #CDC7BE;
+}
+
+.medsos a:hover {
+  background-color: #ddd;
+  -webkit-transition: all .6s ease-in-out;
+  transition: all .6s ease-in-out;
+}
+
+.copyright {
+  background-color: #eee;
+  padding: 1%;
+  font-family: "Saira Condensed", sans-serif;
+  font-size: 1vw;
+  color: #3E2C41;
+}
+
+@media screen and (max-width: 768px) {
+  .gretting {
+    padding: 10%;
+  }
+  .gretting h1 {
+    font-size: 4vw;
+  }
+  .gretting .nama {
+    width: 65%;
+  }
+  .gretting .nama p {
+    font-size: 4vw;
+  }
+  .aboutme {
+    height: 90%;
+    width: 100%;
+  }
+  .aboutme p {
+    font-size: 9vw;
+  }
+  .moreme {
+    height: 90vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .moreme .con_me .more_about {
+    font-size: 4vw;
+  }
+  .moreme .con_me .deskripsi_aboutme {
+    font-size: 3.3vw;
+  }
+  .skill h1 {
+    font-size: 6rem;
+  }
+  .skill img {
+    width: 15rem;
+    left: -20%;
+    -webkit-transform: translateY(85%);
+            transform: translateY(85%);
+  }
+  .language {
+    height: 70vh;
+  }
+  .language .langcon {
+    width: 85%;
+  }
+  .language .langcon h1 {
+    font-size: 4vw;
+  }
+  .language .langcon ul li {
+    font-size: 3vw;
+  }
+  .experience {
+    height: 80vh;
+  }
+  .experience .exp-judul {
+    height: 20vh;
+    font-size: 6rem;
+  }
+  .experience .exp-tokotronik {
+    font-size: 2.8vw;
+  }
+  .jet {
+    height: 20vh;
+  }
+  .jet h1 {
+    font-size: 6rem;
+  }
+  .jet .pro {
+    position: relative;
+    left: 4%;
+  }
+  .jet .S {
+    position: relative;
+    right: 10%;
+  }
+  .jet img {
+    width: 15rem;
+    -webkit-transform: translateY(260%);
+            transform: translateY(260%);
+  }
+  .container {
+    height: 50vh;
+  }
+  .slider .box {
+    height: 50vh;
+  }
+  .slider .box .details {
+    padding-top: 4rem;
+    padding-left: 4rem;
+    width: 30vw;
+  }
+  .slider .box .details h1 {
+    font-size: 4vw;
+  }
+  .slider .box .details p {
+    margin-right: 0rem;
+    font-size: 2vw;
+  }
+  .slider .box .details button {
+    padding: 0.6rem 1rem;
+  }
+  .slider .box .details button a {
+    font-size: 1.5vw;
+  }
+  .slider .box .illustration {
+    padding-right: 3rem;
+  }
+  .slider .box .illustration .inner img {
+    width: 40vw;
+    height: 20vh;
+  }
+  .space {
+    height: 10vh;
+  }
+  .contact-con {
+    height: 70vh;
+  }
+  .contact-con .judul-contact {
+    font-size: 6rem;
+  }
+  .contact-con .isi-contact {
+    width: 80%;
+  }
+  .contact-con .form-con .in {
+    font-size: 2vw;
+  }
+  .contact-con .form-con .msg {
+    font-size: 2vw;
+  }
+  .contact-con .form-con .send {
+    font-size: 2vw;
+  }
+  .medsos a {
+    border-radius: 100%;
+  }
+  .medsos .ig a img {
+    width: 6vw;
+  }
+  .medsos .ghub a img {
+    width: 6vw;
+  }
+  .medsos .yutup a img {
+    width: 6vw;
+  }
+  .copyright {
+    font-size: 2vw;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  .skill h1 {
+    left: 45%;
+    font-size: 4rem;
+  }
+  .skill img {
+    position: relative;
+    width: 10rem;
+    left: -18%;
+    -webkit-transform: translateY(85%);
+            transform: translateY(85%);
+  }
+  .language .langcon h1 {
+    font-size: 5vw;
+  }
+  .language .langcon ul li {
+    font-size: 4vw;
+  }
+  .experience .exp-judul {
+    font-size: 4rem;
+  }
+  .jet h1 {
+    font-size: 4rem;
+  }
+  .jet img {
+    width: 10rem;
+  }
+  .slider .box .details h1 {
+    font-size: 6vw;
+  }
+  .slider .box .details p {
+    font-size: 2.1vw;
+  }
+  .slider .box .illustration .inner img {
+    width: 30vw;
+    height: 15vh;
+  }
+  .contact-con .judul-contact {
+    font-size: 4rem;
+  }
+}
+/*# sourceMappingURL=style.css.map */
