@@ -1,1 +1,1 @@
-web:gunicorn watasite.wsgi
+web: gunicorn watasite.wsgi
