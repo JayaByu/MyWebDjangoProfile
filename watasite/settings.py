@@ -28,9 +28,6 @@ SECRET_KEY = 'django-insecure-)$qgc7%4r9&=pht78wghn!u3u4at@em*qv^20z#o6x3cfilzf3
 DEBUG = True
 
 ALLOWED_HOSTS = []
-# ALLOWED_HOSTS = ['*']
-# ALLOWED_HOSTS = ['127.0.0.1','bayuwebprofile.herokuapp.com/']
-
 # Application definition
 
 INSTALLED_APPS = [
