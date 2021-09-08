@@ -2,6 +2,7 @@
 ```
 http://3.139.210.187/
 ```
+or thi i know it's not perfect http://jaybyu.world/
 
 ### It's build with 
 
