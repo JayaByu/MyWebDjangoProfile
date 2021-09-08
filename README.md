@@ -2,7 +2,8 @@
 ```
 http://3.139.210.187/
 ```
-or thi i know it's not perfect http://jaybyu.world/
+or this i know it wasn't perfect but i want to if u click link just direct to website
+klick http://jaybyu.world/
 
 ### It's build with 
 
