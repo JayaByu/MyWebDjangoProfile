@@ -28,8 +28,8 @@ SECRET_KEY = 'django-insecure-)$qgc7%4r9&=pht78wghn!u3u4at@em*qv^20z#o6x3cfilzf3
 # DEBUG = False
 DEBUG = bool(os.environ.get("DEBUG", False))
 
-# ALLOWED_HOSTS = ['127.0.0.1','https://bayuwebprofile.herokuapp.com']
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['bayuwebprofile.herokuapp.com']
+# ALLOWED_HOSTS = []
 
 # Application definition
 
@@ -103,7 +103,6 @@ AUTH_PASSWORD_VALIDATORS = [
     },
 ]
 
-
 # Internationalization
 # https://docs.djangoproject.com/en/3.2/topics/i18n/
 
@@ -121,11 +120,14 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/3.2/howto/static-files/
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
-STATIC_URL = '/static/'
+STATIC_URL = "/static/"
+# STATIC_URL = '/static/'
+django_heroku.settings(locals())
 
 STATICFILES_DIRS = [
     os.path.join(BASE_DIR,'static'),
 ]
+
 STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
@@ -137,9 +139,17 @@ EMAIL_PORT = 587
 EMAIL_USE_TLS = True
 # EMAIL_USE_SSL = False
 
+# LOGGING = {
+#     "version": 1,
+#     "disable_existing_loggers": False,
+#     "handlers": {"console": {"class": "logging.StreamHandler"}},
+#     "loggers": {
+#         "": {"handlers": ["console"], "level": "INFO"},
+#         "django": {"handlers": ["console"], "level": "INFO"},
+#     },
+# }
+# django_heroku.settings(locals(),logging=False)
 # Default primary key field type
 # https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
-
-django_heroku.settings(locals())
