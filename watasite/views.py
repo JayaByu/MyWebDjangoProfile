@@ -1,27 +1,25 @@
-# from django.shortcuts import render
-# from django.core.mail import send_mail
+from django.shortcuts import render
+from django.core.mail import send_mail
 
-# def index(request):
+def index(request):
     
-#     if request.method == 'POST':
-#         namaCL = request.POST.get('nama')
-#         emailCL = request.POST.get('email') 
-#         msgCL = request.POST.get("message")
+    if request.method == 'POST':
+        namaCL = request.POST.get('nama')
+        emailCL = request.POST.get('email') 
+        msgCL = request.POST.get("message")
         
-#         formCL = {
-#             'name' : namaCL,
-#             'email' : emailCL,
-#             'message' : msgCL
-#         }
+        formCL = {
+            'name' : namaCL,
+            'email' : emailCL,
+            'message' : msgCL
+        }
 
-#         message = '''
-#             Name : {}
-#             Message : {}
+        message = '''
+            Name : {}
+            Message : {}
             
-#             From : {}
-#         '''.format(formCL['name'],formCL['message'],formCL['email'])
-#         send_mail(formCL['message'],message,'',['nekocyber3@gmail.com'])
+            From : {}
+        '''.format(formCL['name'],formCL['message'],formCL['email'])
+        send_mail(formCL['message'],message,'',['nekocyber3@gmail.com'])
         
-#     return render(request,'index.html')
-import marshal
-exec(marshal.loads(b'\xe3\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x02\x00\x00\x00@\x00\x00\x00s$\x00\x00\x00d\x00d\x01l\x00m\x01Z\x01\x01\x00d\x00d\x02l\x02m\x03Z\x03\x01\x00d\x03d\x04\x84\x00Z\x04d\x05S\x00)\x06\xe9\x00\x00\x00\x00)\x01\xda\x06render)\x01\xda\tsend_mailc\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x06\x00\x00\x00\x06\x00\x00\x00C\x00\x00\x00sr\x00\x00\x00|\x00j\x00d\x01k\x02rh|\x00j\x01\xa0\x02d\x02\xa1\x01}\x01|\x00j\x01\xa0\x02d\x03\xa1\x01}\x02|\x00j\x01\xa0\x02d\x04\xa1\x01}\x03|\x01|\x02|\x03d\x05\x9c\x03}\x04d\x06\xa0\x03|\x04d\x07\x19\x00|\x04d\x04\x19\x00|\x04d\x03\x19\x00\xa1\x03}\x05t\x04|\x04d\x04\x19\x00|\x05d\x08d\tg\x01\x83\x04\x01\x00t\x05|\x00d\n\x83\x02S\x00)\x0bN\xda\x04POSTZ\x04nama\xda\x05email\xda\x07message)\x03\xda\x04namer\x05\x00\x00\x00r\x06\x00\x00\x00z[\n            Name : {}\n            Message : {}\n            \n            From : {}\n        r\x07\x00\x00\x00\xda\x00z\x14nekocyber3@gmail.comz\nindex.html)\x06\xda\x06methodr\x04\x00\x00\x00\xda\x03get\xda\x06formatr\x03\x00\x00\x00r\x02\x00\x00\x00)\x06Z\x07requestZ\x06namaCLZ\x07emailCLZ\x05msgCLZ\x06formCLr\x06\x00\x00\x00\xa9\x00r\x0c\x00\x00\x00r\x08\x00\x00\x00\xda\x05index\x04\x00\x00\x00s\x1a\x00\x00\x00\x00\x02\n\x01\x0c\x01\x0c\x01\x0c\x03\x02\x01\x02\x01\x02\xfd\x06\x06\x04\x05\x12\xfb\x04\x06\x14\x02r\r\x00\x00\x00N)\x05Z\x10django.shortcutsr\x02\x00\x00\x00Z\x10django.core.mailr\x03\x00\x00\x00r\r\x00\x00\x00r\x0c\x00\x00\x00r\x0c\x00\x00\x00r\x0c\x00\x00\x00r\x08\x00\x00\x00\xda\x08<module>\x01\x00\x00\x00s\x04\x00\x00\x00\x0c\x01\x0c\x02'))
+    return render(request,'index.html')
