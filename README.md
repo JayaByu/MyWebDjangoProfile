@@ -3,7 +3,7 @@
 http://3.139.210.187/
 ```
 or this i know it wasn't perfect but i want to if u click link just direct to website <br>
-klick http://jaybyu.world/
+<a href="http://jaybyu.world/">Touch My Site</a>
 
 ### It's build with 
 
