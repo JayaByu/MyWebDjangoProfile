@@ -9,7 +9,7 @@ https://docs.djangoproject.com/en/3.2/topics/settings/
 For the full list of settings and their values, see
 https://docs.djangoproject.com/en/3.2/ref/settings/
 """
-import django_heroku
+# import django_heroku
 from pathlib import Path
 import os
 
@@ -27,7 +27,7 @@ SECRET_KEY = 'django-insecure-)$qgc7%4r9&=pht78wghn!u3u4at@em*qv^20z#o6x3cfilzf3
 # DEBUG = False
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1','bayuwebprofile.herokuapp.com']
+ALLOWED_HOSTS = ['127.0.0.1','https://bayuwebprofile.herokuapp.com']
 # Application definition
 
 INSTALLED_APPS = [
@@ -141,4 +141,4 @@ EMAIL_USE_TLS = True
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 #hero 
-django_heroku.settings(locals())
+# django_heroku.settings(locals())
