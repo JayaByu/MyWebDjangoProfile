@@ -1,9 +1,10 @@
 # Hello There This My Webprofile
+
 ```
 http://3.139.210.187/
 ```
-or this i know it wasn't perfect but i want to if u click link just direct to website <br>
-<a href="http://jaybyu.world/">Touch My Site</a>
+or <br>
+<a href="http://3.139.210.187/">Touch My Site</a>
 
 ### It's build with 
 
